@@ -1,0 +1,235 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    position: relative;
+    margin: auto;
+    background-color:rgb(250, 250, 250);
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    z-index: 2;
+    background: rgb(250, 250, 250);
+    height: 30vh;
+    width: 25vw;
+    left: 37.5vw;
+    top: 27.5vh
+
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.login-title{
+    font-family: monospace;
+    margin-left: 12px;
+    font-weight: bold;
+}
+
+.login-input{
+    display: flex;
+    flex-direction: column;
+    margin: 12px 12px;
+}
+
+.login-submit{
+    display: flex;
+    flex-direction: column;
+    margin: 18px 12px;
+}
+
+.header{
+    height: 6vh;
+    border: 1px solid black;
+    display: flex;
+    position: relative;
+    background-color: white;
+    font-size: 20px;
+}
+
+.logo{
+    position: absolute;
+    top: 0px;
+    left: 4vw;
+    font-size: 35px;
+    /* font-style: oblique; */
+    font-weight: bolder;
+    font-family: monospace;
+}
+
+.profile{
+    position: absolute;
+    top: 12px;
+    left: 50vw;
+    font-size: 28px;
+    font-family: monospace;
+    font-weight: 10px;
+
+}
+
+.logout{
+    right: 4vw;
+    position: absolute;
+    top: 12px;
+    font-size: 28px;
+    font-weight: 10px;
+    font-family: monospace;
+
+}
+
+.search{
+    display: flex;
+    /* border: 1px solid black; */
+    height: 6vh;
+    width: 75vw;
+    margin: auto;
+    position: absolute;
+    top: 8.5vh;
+    left: 2vw;
+    justify-content: left;
+}
+
+.input{
+    /* border: 1px solid black;  */
+    margin: auto 15px;  
+}
+
+.input .project {
+    width: 15vw; 
+}
+
+.input .after {
+    width: 7.5vw;
+}
+
+.input .before {
+    width: 7.5vw;
+}
+
+.input .member {
+    width: 15vw; 
+}
+
+.input .submit {
+    position: absolute;
+    width: 3vw; 
+    top : 1.7vw
+}
+
+.main{
+    position: absolute;
+    top: 17vh;
+    left: 1.5vw;
+    display: flex;
+    border: 1px solid black;
+    width: 97vw;
+    height: 80vh;
+    margin: auto 0px;
+    justify-content: space-around;
+    background-color: rgb(241, 241, 241);
+}
+
+.item{
+    /* border: 1px solid black; */
+    width: 425px;
+    margin: 15px 0px;
+    overflow: auto;
+}
+
+.header-item{
+    /* border: 1px solid black; */
+    height: 60px;
+    background-color: rgb(246, 246, 246);
+    border-radius: 5px;  
+    border: rgb(167, 167, 167) solid 1px;  
+}
+
+.item-text{
+    font-size: 20px;
+    font-weight: 40px;
+    color: rgb(90, 90, 90);
+    margin: 5px 7.5px;
+}
+
+.amount{
+    font-size: 15px;
+    font-weight: 20px;
+    color: rgb(80, 80, 80);
+    margin: 7.5px;
+}
+
+.add{
+    /* border: 1px solid black; */
+    width: 300px;
+    height: 20px;
+    margin: 15px auto;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(250, 250, 250);
+    color: rgb(158, 158, 158);
+    display: flex;
+    justify-content: center;
+    border: white
+}
+
+.add-logo{
+    margin: 0 10px;
+}
+
+.add-card{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.add-submit{
+    margin-top: 10px;
+}
+
+.card{
+    /* border: 1px solid black; */
+    background-color: rgb(253, 253, 253);
+    margin: 25px 7.5px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    border: solid rgb(131, 131, 131) 1px;
+    border-radius: 5px;
+    z-index: 0;
+}
+
+.date{
+    /* border: 1px solid black; */
+    margin: 7.5px;
+
+}
+
+.task{
+    /* border: 1px solid black; */
+    height: 25px;
+    margin: 7.5px;
+
+
+}
+
+.description{
+    /* border: 1px solid black; */
+    height: 83px;
+    margin: 7.5px;
+    text-align: justify;
+
+}
+
+.member{
+    /* border: 1px solid black; */
+    margin: 7.5px;
+}
+
+/*# sourceMappingURL=/style.e308ff8e.css.map */

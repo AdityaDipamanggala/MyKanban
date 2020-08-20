@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kanban</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="login">
+        <h3 class="login-title">Welcome to My Kanban</h3>
+        <form class="login-form">
+            <div class="login-input">
+                <label for="">Email :</label>
+                <input type="email" name="" id="">
+            </div>
+            <div class="login-input"> 
+                <label for="">Password :</label>
+                <input type="password" name="" id="">
+            </div>
+            <div class="login-submit">
+                <button type="submit">login</button>
+            </div>   
+        </form>        
+    </div>
+    <div class="header">
+        <div class="logo">
+            My Kanban
+        </div>
+        <div class="profile">
+            <i class="glyphicon glyphicon-user"></i>                
+            My Profile
+        </div>
+        <div class="logout">
+            <i class="glyphicon glyphicon-off"></i> 
+            Logout
+        </div>
+    </div>
+    <form class="search">
+        <div class="input">
+            <label class="label-project" for="">Project</label><br>
+            <input class="project" type="text" name="" id="">
+        </div> 
+        <div class="input">
+            <label class="label-after" for="">After</label><br>
+            <input class="after" type="date" name="" id="">
+        </div> 
+        <div class="input">
+            <label class="label-before" for="">Before</label><br>
+            <input class="before" type="date" name="" id="">
+        </div>
+        <div class="input">
+            <label class="label-member" for="">Member</label><br>
+            <input class="member" type="text" name="" id="">
+        </div> 
+        <div class="input">
+            <button class="submit" type="submit">submit</button>
+        </div>
+    </form>
+    <div class="main">
+        <div class="item log">
+            <div class="header-item" >
+                <h4 class="item-text">Explore</h4>
+                <p class="amount"> 1 activities</p>
+            </div>
+            <div class="add">
+                <div class="add-logo">
+                    <i class="glyphicon glyphicon-plus-sign"></i>                
+                </div>
+                <div class="add-text">
+                    add new task
+                </div>
+            </div>
+            <div class="card done">
+                <h5 class="date"> 2020-06-16 </h5>
+                <h4 class="task"> Doing My Kanban Porto</h4>
+                <p class="description"> My Kanban porto contained client and server, and I do it in node.js, 
+                    with the help of pg database and in the end I should deploy it to public by the help from
+                    heroku to deploy server and firebase to deploy client</p>
+                <p class="member"> Aditya D </p>
+            </div>
+        </div>
+        <div class="item todo">
+            <div class="header-item" >
+                <h4 class="item-text">To do</h4>
+                <p class="amount"> 1 activities</p>
+            </div>
+            <div class="add">
+                <div class="add-logo">
+                    <i class="glyphicon glyphicon-plus-sign"></i>                
+                </div>
+                <div class="add-text">
+                    add new task
+                </div>
+            </div>
+            <div class="card done">
+                <h5 class="date"> 2020-06-16 </h5>
+                <h4 class="task"> Doing My Kanban Porto</h4>
+                <p class="description"> My Kanban porto contained client and server, and I do it in node.js, 
+                    with the help of pg database and in the end I should deploy it to public by the help from
+                    heroku to deploy server and firebase to deploy client</p>
+                <p class="member"> Aditya D </p>
+            </div>
+        </div>
+        <div class="item doing">
+            <div class="header-item" >
+                <h4 class="item-text">Doing</h4>
+                <p class="amount"> 1 activities</p>
+            </div>
+            <div class="add">
+                <div class="add-logo">
+                    <i class="glyphicon glyphicon-plus-sign"></i>                
+                </div>
+                <div class="add-text">
+                    add new task
+                </div>
+            </div>
+            <div class="card done">
+                <h5 class="date"> 2020-06-16 </h5>
+                <h4 class="task"> Doing My Kanban Porto</h4>
+                <p class="description"> My Kanban porto contained client and server, and I do it in node.js, 
+                    with the help of pg database and in the end I should deploy it to public by the help from
+                    heroku to deploy server and firebase to deploy client</p>
+                <p class="member"> Aditya D </p>
+            </div>
+        </div>
+        <div class="item done">
+            <div class="header-item" >
+                <h4 class="item-text">Done</h4>
+                <p class="amount"> 4 activities</p>
+            </div>
+            <a href="">
+                <div class="add">
+                    <div class="add-logo">
+                        <i class="glyphicon glyphicon-plus-sign"></i>                
+                    </div>
+                    <div class="add-text">
+                        add new task
+                    </div>
+                </div>
+            </a>
+            <form action="" method="post" class="add-card">
+                <label for=""> Title: </label>
+                <input type="text" name="" id="">
+                <label for=""> Description: </label>
+                <textarea name="" id="" cols="3" rows="10"></textarea>
+                <label for="">Date:</label>
+                <input type="date">
+                <label for="">Category:</label>
+                <select name="" id="">
+                    <option value="Explore">Explore</option>
+                    <option value="Todo">Todo</option>
+                    <option value="Doing">Doing</option>
+                    <option value="Done">Done</option>
+                </select>
+                <button class="add-submit" type="submit">Submit</button>
+
+            </form>
+            <div class="card done">
+                <h5 class="date"> 2020-06-16 </h5>
+                <h4 class="task"> Doing My Kanban Porto</h4>
+                <p class="description"> My Kanban porto contained client and server, and I do it in node.js, 
+                    with the help of pg database and in the end I should deploy it to public by the help from
+                    heroku to deploy server and firebase to deploy client</p>
+                <p class="member"> Aditya D </p>
+            </div>
+            <div class="card done">
+                <h5 class="date"> 2020-06-16 </h5>
+                <h4 class="task"> Doing My Kanban Porto</h4>
+                <p class="description"> My Kanban porto contained client and server, and I do it in node.js, 
+                    with the help of pg database and in the end I should deploy it to public by the help from
+                    heroku to deploy server and firebase to deploy client</p>
+                <p class="member"> Aditya D </p>
+            </div>
+            <div class="card done">
+                <h5 class="date"> 2020-06-16 </h5>
+                <h4 class="task"> Doing My Kanban Porto</h4>
+                <p class="description"> My Kanban porto contained client and server, and I do it in node.js, 
+                    with the help of pg database and in the end I should deploy it to public by the help from
+                    heroku to deploy server and firebase to deploy client</p>
+                <p class="member"> Aditya D </p>
+            </div>
+            <div class="card done">
+                <h5 class="date"> 2020-06-16 </h5>
+                <h4 class="task"> Doing My Kanban Porto</h4>
+                <p class="description"> My Kanban porto contained client and server, and I do it in node.js, 
+                    with the help of pg database and in the end I should deploy it to public by the help from
+                    heroku to deploy server and firebase to deploy client</p>
+                <p class="member"> Aditya D </p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
